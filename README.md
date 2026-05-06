@@ -22,7 +22,7 @@ While Opencode provides a button to archive sessions, it does not currently prov
 1. **Prerequisites**: Ensure you have [Python](https://www.python.org/) installed and available in your system path.
 2. **Download**: Grab the latest `archive-manager-v1.0.0.zip` from the [Releases](https://github.com/OllyJohnston/OpenCode-Archive-Session-Manager/releases) page.
 3. **Extract**: Unzip the folder to a permanent location (e.g., `C:\Plugins\ArchiveManager`).
-4. **Register**: Add the folder path to your Opencode `config.json` or via the TUI plugins menu:
+4. **Register**: Add the folder path to your Opencode `opencode.jsonc` (on Windows) or via the TUI plugins menu:
    ```json
    {
      "plugins": [
