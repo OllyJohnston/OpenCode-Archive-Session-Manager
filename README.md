@@ -12,7 +12,7 @@ While Opencode provides a button to archive sessions, it does not currently prov
 > **Note for Desktop/Electron Users**: Slash commands do not work in the Opencode Electron Desktop app. To use this plugin, you must use the **Opencode TUI** version.
 > 1. Download the latest release for your OS (e.g., `opencode-windows-x64.zip` or `opencode-linux-x64.zip`) from the [Opencode Releases](https://github.com/anomalyco/opencode/releases).
 > 2. Extract it to a separate folder from your Desktop version.
-> 3. Run the `opencode` executable from your terminal (CMD, PowerShell, or Bash).
+> 3. Run the `opencode` executable from your terminal. **Note for Windows**: Use **CMD** (Command Prompt), as Opencode currently has known stability/UI issues in PowerShell.
 > 4. You can then use the `/archive_` commands listed below.
 
 ## Features
