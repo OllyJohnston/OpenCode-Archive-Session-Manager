@@ -59,7 +59,7 @@ When you run a command, the plugin:
 1. Spawns a lightweight Python process.
 2. Connects directly to the Opencode SQLite database (`~/.local/share/opencode/opencode.db`).
 3. Executes the query/update with a 10s busy timeout to handle locks.
-4. Returns the result to a **TUI Toast** (top-left "box").
+4. Returns the result to a **TUI Toast** (top-right "box").
 5. **Aborts the Turn**: Immediately throws an internal error to prevent the AI from seeing or responding to the administrative output.
 
 ## License
