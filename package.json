@@ -1,0 +1,29 @@
+{
+  "name": "opencode-archive-manager",
+  "version": "1.0.0",
+  "description": "View, manage and restore archived OpenCode sessions",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": ">=1.4.3"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "^1.4.3",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.2"
+  },
+  "files": [
+    "dist/"
+  ]
+}
